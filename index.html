@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?amily=Jolly+Lodger&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="p-nav">
+            <div class="logo"><span class="red-dot">MR.</span>H</div>
+            <div class="nav-menu">
+                <ul class="nav-list" id="nav-list">
+                    <a href="#home">
+                        <li class="nav-item">Home</li>
+                    </a>
+                    <a href="#about-me">
+                        <li class="nav-item">About Me</li>
+                    </a>
+                    <a href="#services">
+                        <li class="nav-item">Services</li>
+                    </a>
+                    <a href="#projects">
+                        <li class="nav-item">Projects</li>
+                    </a>
+                    <a href="#contact">
+                        <li class=" contact-btn">Contact</li>
+                    </a>
+                </ul>
+                <div class="nav-toggle " onclick="togle_nav_menu()">
+                    <i class="fa-solid fa-bars fa-2x "></i>
+                </div>
+            </div>
+            
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+
+        <!-- ########## HERO SECTION ########## -->
+        <section class="hero-section" id="home">
+            <div class="hero-left" id="home-data">
+                <h1 class="home-title">Hi,I am <br>
+                    <span class="hero-name">Enrico R. Hermoso</span>
+                </h1>
+                <p class="hero-description">
+                    I am Enrico Hermoso, im 21 years old.
+                </p>
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-facebook fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope fa-2x" style="color: black;"></i></a>
+                </div>
+        
+
+            </div>
+            <div class="hero-right">
+
+            <div class="hero-image">
+                <img src="assets/images/me.jpg" alt="hero image">
+            </div>
+        </div>
+        </section>
+
+        <!-- ########## ABOUT ME SECTION ########## -->
+        <section class="about_me-section" id="about-me">
+            <div class="about-me-top">
+                <h1>About Me<span class="red-dot">.</span></h1>
+                <p class="about-me-description">
+                    Hi, Im Enrico Hermoso, 21 years old was born on June 04, 2001 at Tagaytay Hospital currently living in Luksuhin Ibaba Alfonso Cavite and currently enrolled in City College of Tagaytay.
+                </p>
+            </div>
+        </section>
+
+        <!-- ########## SERVICES SECTION ########## -->
+        <section class="services" id="services">
+            <div class="about-me-top">
+                <h1>Services<span class="red-dot">.</span></h1>
+            </div>
+
+            <div class="services-grid">
+                <div class="services-card">
+                    <h2>Canva Design</h2>
+                    <p>Canva is an Australian global multi-national graphic design platform that is used to create social media graphics and presentations. The app includes readymade templates for users to use
+                        dolore </p>
+
+                </div>
+                <div class="services-card">
+                    <h2>Video Editing</h2>
+                    <p>Video editing is the manipulation and arrangement of video shots
+                        </p>
+
+                </div>
+                <div class="services-card">
+                    <h2>Basic TroubleShooting</h2>
+                    <p>Troubleshooting is a form of problem solving, often applied to repair failed products or processes on a machine or a system.
+                        .</p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ########## PROJECTS SECTION ########## -->
+        <section class="portfolio" id="projects">
+
+            <div class="about-me-top">
+                <h1>My Projects<span class="red-dot">.</span></h1>
+
+            </div>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="assets/images/Activity.png" alt="">
+                    <p class="project-detail">Website Activity   </p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/jack n poy.png" alt="">
+                    <p class="project-detail">Jack N Poy Activity </p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/Thesis.jpg" alt="">
+                    <p class="project-detail">Log In Page of Our Thesis </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ########## CONTACT SECTION ########## -->
+        <section class="contact" id="contact">
+            <div class="about-me-top contact-heading">
+                <h1><span class="red-dot">Contact.</span></h1>
+                
+
+            
+                <div class="socials bottom-social">
+                    <a href=""><i class="fa-brands fa-facebook fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-2x" style="color: black;"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope fa-2x" style="color: black;"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    
+
+    <footer class="footer">
+        <div class="footer-child">
+            
+            <p class="copyright">This website is a portfolio in ITEC90 </p>
+        </div>
+    </footer>
+
+    <script>
+        let navList = document.getElementById('nav-list')
+        navList.addEventListener('click', togle_nav_menu)
+
+        function togle_nav_menu(){
+            console.log('This is working');
+            navList.classList.toggle('show-menu')
+            
+        }
+    </script>
+</body>
+
+</html>
